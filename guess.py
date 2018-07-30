@@ -15,14 +15,14 @@ for guessesTaken in range(6):
     guess = input()
     guess = int(guess)
 
-	if guess < number:
-		print('Your guess is too low.')
+    if guess < number:
+        print('Your guess is too low.')
 
-	if guess > number:
-		print('Your guess is too high.')
+    if guess > number:
+        print('Your guess is too high.')
 
-	if guess == number:
-		break
+    if guess == number:
+        break
 
 if guess == number:
 	guessesTaken = str(guessesTaken + 1)
